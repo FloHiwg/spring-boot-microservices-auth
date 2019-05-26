@@ -7,3 +7,12 @@ spring:
       fail-fast: true
       password: 1234
       username: user
+
+debug: true
+trace: true
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          netflix: trace
